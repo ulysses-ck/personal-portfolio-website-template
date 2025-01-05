@@ -14,9 +14,12 @@ export default function Navbar({ className }: { className?: string }) {
 }
 
 function NavbarLinks() {
-  return Object.entries(links).map(([key, value]) => (
-    <li>
-      <Link href={value}>{key}</Link>
-    </li>
-  ));
+  return Object.entries(links).map(([key, value]) => {
+    const capitalizedKey = key.charAt(0).toUpperCase() + key.slice(1);
+    return (
+      <li>
+        <Link href={value}>{capitalizedKey}</Link>
+      </li>
+    );
+  });
 }
