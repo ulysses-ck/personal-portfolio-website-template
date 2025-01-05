@@ -1,3 +1,5 @@
+"use client";
+
 import ButtonGeneric from "./button-generic";
 
 export default function DownloadCV() {
@@ -5,6 +7,6 @@ export default function DownloadCV() {
     window.open("/cv.pdf", "_blank");
   };
 
-  return <ButtonGeneric onClick={handleDownload}>Download CV</ButtonGeneric>;
+  return <ButtonGeneric className="mobile:w-full" onClick={handleDownload}>Download CV</ButtonGeneric>;
 }
 
