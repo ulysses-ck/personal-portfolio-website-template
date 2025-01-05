@@ -1,5 +1,6 @@
 "use client";
 
+import { cn } from "@/lib/utils";
 import { useTheme } from "next-themes";
 import { CiTwitter } from "react-icons/ci";
 import { FiGithub, FiPhone } from "react-icons/fi";
@@ -35,11 +36,13 @@ const IconComponent: Record<Icon, IconType> = {
   [Icon.ExternalLink]: LuExternalLink,
 };
 
-export default function IconBase({ icon, size }: IconBaseProps) {
+export default function IconBase({ icon, size, lightColor, darkColor }: IconBaseProps) {
   const { theme } = useTheme();
   const Icon: IconType = IconComponent[icon];
+  const defaultColor = "text-gray-600 dark:text-gray-dark-600";
+
   return (
-    <span className={theme === "light" ? "text-gray-600" : "text-gray-dark-600"}>
+    <span className={cn(defaultColor, theme === "light" ? lightColor : darkColor)}>
       <Icon size={size} />
     </span>
   );
