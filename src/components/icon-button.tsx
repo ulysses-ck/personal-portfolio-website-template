@@ -18,7 +18,7 @@ export default function IconButton({
   onClick,
 }: IconButtonProps) {
   return (
-    <ButtonGeneric className="p-2 bg-transparent hover:bg-gray-100 active:bg-gray-200 dark:hover:bg-gray-dark-100 dark:active:bg-gray-dark-200" onClick={onClick}>
+    <ButtonGeneric className="p-2 bg-transparent dark:bg-transparent hover:bg-gray-100 active:bg-gray-200 dark:hover:bg-gray-dark-100 dark:active:bg-gray-dark-200" onClick={onClick}>
       <IconBase
         icon={icon}
         size={size}
