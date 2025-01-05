@@ -5,6 +5,7 @@ import IconButton from "./icon-button";
 import Navbar from "./navbar";
 import ToggleTheme from "./toggle-theme";
 import DownloadCV from "./download-cv";
+import { cn } from "@/lib/utils";
 
 export default function ModalNavbar({
   setIsOpen,
@@ -16,7 +17,7 @@ export default function ModalNavbar({
   };
 
   return (
-    <div className="fixed inset-0 bg-gray/10 flex justify-center items-center backdrop-blur-sm">
+    <div className="fixed inset-0 bg-gray/10 flex justify-end backdrop-blur-sm">
       <div className="bg-gray dark:bg-gray-dark drop-shadow-2xl h-full w-10/12">
         <NavbarSection>
           <h2 className="text-h3-desktop-semibold text-gray-900 dark:text-gray-dark-900">
@@ -33,8 +34,8 @@ export default function ModalNavbar({
         <NavbarSection>
           <Navbar className="flex-col gap-4 items-start justify-center" />
         </NavbarSection>
-        <NavbarSection>
-          <div className="flex justify-between items-center">
+        <NavbarSection className="flex-col gap-4 items-start justify-center">
+          <div className="flex justify-between items-center w-full">
             <span className="text-body3-all-medium text-gray-900 dark:text-gray-dark-900">
               Switch Theme
             </span>
@@ -47,9 +48,15 @@ export default function ModalNavbar({
   );
 }
 
-function NavbarSection({ children }: { children: React.ReactNode }) {
+function NavbarSection({
+  children,
+  className,
+}: {
+  children: React.ReactNode;
+  className?: string;
+}) {
   return (
-    <div className="flex justify-between items-center border-b border-gray-100 dark:border-gray-dark-100">
+    <div className={cn("flex justify-between items-center border-b border-gray-100 dark:border-gray-dark-100 p-4", className)}>
       {children}
     </div>
   );
