@@ -1,0 +1,15 @@
+export enum Icon {
+  Twitter = "CiTwitter",
+  Github = "FiGithub",
+  Phone = "FiPhone",
+  Figma = "FaFigma",
+  Envelope = "FaRegEnvelope",
+  Copyright = "FaRegCopyright",
+  Copy = "LuCopy",
+  MoonStar = "LuMoonStar",
+  Sun = "LuSun",
+  Menu = "LuMenu",
+  Close = "AiOutlineClose",
+  Location = "IoLocationOutline",
+  ExternalLink = "LuExternalLink",
+}

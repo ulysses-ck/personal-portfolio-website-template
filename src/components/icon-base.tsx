@@ -8,23 +8,9 @@ import { FaRegCopyright } from "react-icons/fa6";
 import { LuCopy, LuMoonStar, LuSun, LuMenu, LuExternalLink } from "react-icons/lu";
 import { AiOutlineClose } from "react-icons/ai";
 import { IoLocationOutline } from "react-icons/io5";
-import type { IconType } from "react-icons";
 
-enum Icon {
-  Twitter = "CiTwitter",
-  Github = "FiGithub",
-  Phone = "FiPhone",
-  Figma = "FaFigma",
-  Envelope = "FaRegEnvelope",
-  Copyright = "FaRegCopyright",
-  Copy = "LuCopy",
-  MoonStar = "LuMoonStar",
-  Sun = "LuSun",
-  Menu = "LuMenu",
-  Close = "AiOutlineClose",
-  Location = "IoLocationOutline",
-  ExternalLink = "LuExternalLink",
-}
+import type { IconType } from "react-icons";
+import { Icon } from "@/data/types/IIcon";
 
 interface IconBaseProps {
   icon: Icon;
