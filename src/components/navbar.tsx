@@ -1,10 +1,12 @@
 import { links } from "@/data/ui/nav";
 import Link from "next/link";
+import { cn } from "@/lib/utils";
 
-export default function Navbar() {
+export default function Navbar({ className }: { className?: string }) {
+  const baseClasses = cn("flex items-center gap-6", className);
   return (
     <nav>
-      <ul className="flex items-center gap-6">
+      <ul className={baseClasses}>
         <NavbarLinks />
       </ul>
     </nav>
