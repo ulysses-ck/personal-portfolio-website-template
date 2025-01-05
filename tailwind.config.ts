@@ -18,70 +18,105 @@ export default {
         inter: ['Inter', 'sans-serif'],
       },
       fontSize: {
-        h1: ['60px', {
+        'h1-desktop-bold': ['60px', {
           lineHeight: '72px',
           letterSpacing: '-2%',
           fontWeight: '700', // Bold
         }],
-        'h1-t': ['48px', {
+        'h1-tablet-bold': ['48px', {
           lineHeight: '48px',
           letterSpacing: '-2%',
           fontWeight: '700', // Bold
         }],
-        'h1-m': ['36px', {
+        'h1-mobile-semibold': ['36px', {
           lineHeight: '40px',
           letterSpacing: '-2%',
           fontWeight: '600', // Semi Bold
         }],
-        h2: ['36px', {
+        'h2-desktop-semibold': ['36px', {
           lineHeight: '40px',
           letterSpacing: '-2%',
           fontWeight: '600', // Semi Bold
         }],
-        'h2-sm': ['18px', {
+        'h2-tablet-semibold': ['18px', {
           lineHeight: '28px',
           letterSpacing: '-2%',
           fontWeight: '600', // Semi Bold
         }],
-        h3: ['30px', {
+        'h3-desktop-semibold': ['30px', {
           lineHeight: '36px',
           letterSpacing: '-2%',
           fontWeight: '600', // Semi Bold by default
         }],
-        'h3-sm': ['24px', {
+        'h3-desktop-bold': ['30px', {
+          lineHeight: '36px',
+          letterSpacing: '-2%',
+          fontWeight: '700', // Bold
+        }],
+        'h3-tablet-semibold': ['24px', {
           lineHeight: '32px',
           letterSpacing: '-2%',
           fontWeight: '600', // Semi Bold by default
         }],
-        subtitle: ['20px', {
+        'h3-tablet-bold': ['24px', {
+          lineHeight: '32px',
+          letterSpacing: '-2%',
+          fontWeight: '700', // Bold
+        }],
+        'subtitle-all-normal': ['20px', {
           lineHeight: '28px',
           letterSpacing: '-2%',
           fontWeight: '400', // Normal
         }],
-        'subtitle-sm': ['18px', {
+        'subtitle-all-semibold': ['20px', {
+          lineHeight: '28px',
+          letterSpacing: '-2%',
+          fontWeight: '600', // Semi Bold
+        }],
+        'subtitle-tablet-mobile-normal': ['18px', { // tablet mobile
           lineHeight: '28px',
           letterSpacing: '-2%',
           fontWeight: '400', // Normal
         }],
-        body1: ['18px', {
+        'subtitle-tablet-mobile-semibold': ['18px', { // tablet mobile
+          lineHeight: '28px',
+          letterSpacing: '-2%',
+          fontWeight: '600', // Semi Bold
+        }],
+        'body1-all-normal': ['18px', {
           lineHeight: '28px',
           letterSpacing: '-2%',
           fontWeight: '400', // Normal
         }],
-        'body1-sm': ['16px', {
+        'body1-tablet-mobile-normal': ['16px', { // tablet mobile
           lineHeight: '24px',
           letterSpacing: '-2%',
-          fontWeight: '400', // Normal
+          fontWeight: '600', // Semi Bold
         }],
-        body2: ['16px', {
+        'body2-all-normal': ['16px', {
           lineHeight: '24px',
           letterSpacing: '-2%',
           fontWeight: '400', // Normal by default
         }],
-        body3: ['14px', {
+        'body2-all-medium': ['16px', {
+          lineHeight: '24px',
+          letterSpacing: '-2%',
+          fontWeight: '500', // Medium
+        }],
+        'body2-all-semibold': ['16px', {
+          lineHeight: '24px',
+          letterSpacing: '-2%',
+          fontWeight: '600', // Semi Bold
+        }],
+        'body3-all-normal': ['14px', {
           lineHeight: '20px',
           letterSpacing: '-2%',
           fontWeight: '400', // Normal by default
+        }],
+        'body3-all-medium': ['14px', {
+          lineHeight: '20px',
+          letterSpacing: '-2%',
+          fontWeight: '500', // Medium
         }],
       },
       dropShadow: {
