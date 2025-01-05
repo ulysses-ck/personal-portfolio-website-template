@@ -8,7 +8,7 @@ import Skills from "@/components/skills";
 
 export default function Home() {
   return (
-    <main>
+    <main className="py-16 px-4 desktop:px-20 desktop:py-24">
       <Hero />
       <About />
       <Skills />
