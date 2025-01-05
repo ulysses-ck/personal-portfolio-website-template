@@ -17,7 +17,7 @@ interface IconBaseProps {
   icon: Icon;
   lightColor: string;
   darkColor: string;
-  size: 24 | 32;
+  size: 16 |24 | 32;
 }
 
 const IconComponent: Record<Icon, IconType> = {
