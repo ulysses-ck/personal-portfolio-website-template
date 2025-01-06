@@ -59,8 +59,6 @@ const IconComponent: Record<Icon, IconType> = {
 export default function IconBase({ icon, size, lightColor, darkColor }: IconBaseProps) {
   const { theme } = useTheme();
   const Icon: IconType = IconComponent[icon];
-  console.log(icon);
-  console.log(Icon);
   const defaultColorClasses = "text-gray-600 dark:text-gray-dark-600";
 
   return (
