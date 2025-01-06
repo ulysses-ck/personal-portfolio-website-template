@@ -10,7 +10,7 @@ export default function About() {
         {text.about.title}
       </h3>
       <p className="text-body2-all-normal text-gray-600">
-        I'm a passionate,{" "}
+        I&apos;m a passionate,{" "}
         <LinkBase href="https://www.google.com">
           self-proclaimed designer
         </LinkBase>{" "}
@@ -26,7 +26,7 @@ export default function About() {
         {text.about.paragraph3}
       </p>
       <p className="text-body2-all-normal text-gray-600">
-        When I'm not in full-on developer mode, you can find me hovering around
+        When I&apos;m not in full-on developer mode, you can find me hovering around
         on twitter or on indie hacker, witnessing the journey of early startups
         or enjoying some free time. You can follow me on{" "}
         <LinkBase href={text.social.twitter}>Twitter</LinkBase> where I share
