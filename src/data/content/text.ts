@@ -22,32 +22,32 @@ export const text = {
       {
         name: Icon.JavaScript,        
         lightColorClasses: "text-yellow-500",
-        darkColorClasses: "text-yellow-500",
+        darkColorClasses: "dark:text-yellow-500",
       },
       {
         name: Icon.TypeScript,        
         lightColorClasses: "text-blue-500",
-        darkColorClasses: "text-blue-500",
+        darkColorClasses: "dark:text-blue-500",
       },
       {
         name: Icon.React,        
         lightColorClasses: "text-blue-400",
-        darkColorClasses: "text-blue-400",
+        darkColorClasses: "dark:text-blue-400",
       },
       {
         name: Icon.NextJs,        
         lightColorClasses: "text-black",
-        darkColorClasses: "text-white",
+        darkColorClasses: "dark:text-white",
       },
       {
         name: Icon.NodeJs,        
         lightColorClasses: "text-green-600",
-        darkColorClasses: "text-green-500",
+        darkColorClasses: "dark:text-green-500",
       },
       {
         name: Icon.ExpressJs,        
         lightColorClasses: "text-gray-800",
-        darkColorClasses: "text-gray-200",
+        darkColorClasses: "dark:text-gray-200",
       },
       {
         name: Icon.NestJs,        
@@ -57,12 +57,12 @@ export const text = {
       {
         name: Icon.SocketIo,        
         lightColorClasses: "text-gray-800",
-        darkColorClasses: "text-gray-200",
+        darkColorClasses: "dark:text-gray-200",
       },
       {
         name: Icon.PostgreSQL,        
         lightColorClasses: "text-blue-600",
-        darkColorClasses: "text-blue-500",
+        darkColorClasses: "dark:text-blue-500",
       },
       {
         name: Icon.MongoDB,        
@@ -72,12 +72,12 @@ export const text = {
       {
         name: Icon.Sass,        
         lightColorClasses: "text-pink-500",
-        darkColorClasses: "text-pink-400",
+        darkColorClasses: "dark:text-pink-400",
       },
       {
         name: Icon.TailwindCSS,        
         lightColorClasses: "text-cyan-500",
-        darkColorClasses: "text-cyan-400",
+        darkColorClasses: "dark:text-cyan-400",
       },
       {
         name: Icon.Figma,        
@@ -87,17 +87,17 @@ export const text = {
       {
         name: Icon.Cypress,        
         lightColorClasses: "text-gray-800",
-        darkColorClasses: "text-gray-200",
+        darkColorClasses: "dark:text-gray-200",
       },
       {
         name: Icon.Storybook,        
         lightColorClasses: "text-pink-600",
-        darkColorClasses: "text-pink-500",
+        darkColorClasses: "dark:text-pink-500",
       },
       {
         name: Icon.Git,        
         lightColorClasses: "text-orange-600",
-        darkColorClasses: "text-orange-500",
+        darkColorClasses: "dark:text-orange-500",
       },
     ]
   },
