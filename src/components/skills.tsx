@@ -15,7 +15,7 @@ export default function Skill() {
         text.skills.techStack.map((skill) => {
           return (
             <div key={skill.name}>
-              <IconBase icon={skill.name as Icon} lightColor={skill.lightColorClasses} darkColor={skill.darkColorClasses} size={24} />
+              <IconBase icon={skill.name} lightColor={skill.lightColorClasses} darkColor={skill.darkColorClasses} size={24} />
             </div>
           )
         })
