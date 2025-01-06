@@ -16,6 +16,88 @@ export const text = {
   skills: {
     title: "Skills",
     description: "The skills, tools and technologies I am really good at:",
+    techStack: [
+      {
+        name: "JavaScript",        
+        lightColorClasses: "text-yellow-500",
+        darkColorClasses: "text-yellow-500",
+      },
+      {
+        name: "TypeScript",        
+        lightColorClasses: "text-blue-500",
+        darkColorClasses: "text-blue-500",
+      },
+      {
+        name: "React",        
+        lightColorClasses: "text-blue-400",
+        darkColorClasses: "text-blue-400",
+      },
+      {
+        name: "Nextjs",        
+        lightColorClasses: "text-black",
+        darkColorClasses: "text-white",
+      },
+      {
+        name: "Nodejs",        
+        lightColorClasses: "text-green-600",
+        darkColorClasses: "text-green-500",
+      },
+      {
+        name: "Expressjs",        
+        lightColorClasses: "text-gray-800",
+        darkColorClasses: "text-gray-200",
+      },
+      {
+        name: "Nestjs",        
+        lightColorClasses: "text-red-600",
+        darkColorClasses: "text-red-500",
+      },
+      {
+        name: "Socketio",        
+        lightColorClasses: "text-gray-800",
+        darkColorClasses: "text-gray-200",
+      },
+      {
+        name: "Postgresql",        
+        lightColorClasses: "text-blue-600",
+        darkColorClasses: "text-blue-500",
+      },
+      {
+        name: "MongoDB",        
+        lightColorClasses: "text-green-500",
+        darkColorClasses: "text-green-400",
+      },
+      {
+        name: "Sass",        
+        lightColorClasses: "text-pink-500",
+        darkColorClasses: "text-pink-400",
+      },
+      {
+        name: "TailwindCSS",        
+        lightColorClasses: "text-cyan-500",
+        darkColorClasses: "text-cyan-400",
+      },
+      {
+        name: "Figma",        
+        lightColorClasses: "text-purple-500",
+        darkColorClasses: "text-purple-400",
+      },
+      {
+        name: "Cypress",        
+        lightColorClasses: "text-gray-800",
+        darkColorClasses: "text-gray-200",
+      },
+      {
+        name: "Storybook",        
+        lightColorClasses: "text-pink-600",
+        darkColorClasses: "text-pink-500",
+      },
+      {
+        name: "Git",        
+        lightColorClasses: "text-orange-600",
+        darkColorClasses: "text-orange-500",
+      },
+    ]
   },
   experience: {
     title: "Experience",
