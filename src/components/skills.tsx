@@ -1,5 +1,3 @@
-import { Icon } from "@/data/types/IIcon";
-
 import Tag from "@/components/tag";
 import { text } from "@/data/content/text";
 import IconBase from "./icon-base";
