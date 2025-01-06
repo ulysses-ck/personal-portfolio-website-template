@@ -22,7 +22,7 @@ export default function Hero() {
           <span>{text.hero.location}</span>
         </p>
         <p className="text-body2-all-normal flex items-center gap-2">
-          <div className="rounded-full w-2 h-2 bg-emerald-500"></div>
+          <span className="rounded-full w-2 h-2 bg-emerald-500"></span>
           <span>{text.hero.available}</span>
         </p>
       </div>
