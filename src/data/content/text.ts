@@ -1,3 +1,5 @@
+import { Icon } from "@/data/types/IIcon";
+
 export const text = {
   hero: {
     title: "Hello, I'm Sagar 🖐",
@@ -18,82 +20,82 @@ export const text = {
     description: "The skills, tools and technologies I am really good at:",
     techStack: [
       {
-        name: "JavaScript",        
+        name: Icon.JavaScript,        
         lightColorClasses: "text-yellow-500",
         darkColorClasses: "text-yellow-500",
       },
       {
-        name: "TypeScript",        
+        name: Icon.TypeScript,        
         lightColorClasses: "text-blue-500",
         darkColorClasses: "text-blue-500",
       },
       {
-        name: "React",        
+        name: Icon.React,        
         lightColorClasses: "text-blue-400",
         darkColorClasses: "text-blue-400",
       },
       {
-        name: "Nextjs",        
+        name: Icon.NextJs,        
         lightColorClasses: "text-black",
         darkColorClasses: "text-white",
       },
       {
-        name: "Nodejs",        
+        name: Icon.NodeJs,        
         lightColorClasses: "text-green-600",
         darkColorClasses: "text-green-500",
       },
       {
-        name: "Expressjs",        
+        name: Icon.ExpressJs,        
         lightColorClasses: "text-gray-800",
         darkColorClasses: "text-gray-200",
       },
       {
-        name: "Nestjs",        
+        name: Icon.NestJs,        
         lightColorClasses: "text-red-600",
         darkColorClasses: "text-red-500",
       },
       {
-        name: "Socketio",        
+        name: Icon.SocketIo,        
         lightColorClasses: "text-gray-800",
         darkColorClasses: "text-gray-200",
       },
       {
-        name: "Postgresql",        
+        name: Icon.PostgreSQL,        
         lightColorClasses: "text-blue-600",
         darkColorClasses: "text-blue-500",
       },
       {
-        name: "MongoDB",        
+        name: Icon.MongoDB,        
         lightColorClasses: "text-green-500",
         darkColorClasses: "text-green-400",
       },
       {
-        name: "Sass",        
+        name: Icon.Sass,        
         lightColorClasses: "text-pink-500",
         darkColorClasses: "text-pink-400",
       },
       {
-        name: "TailwindCSS",        
+        name: Icon.TailwindCSS,        
         lightColorClasses: "text-cyan-500",
         darkColorClasses: "text-cyan-400",
       },
       {
-        name: "Figma",        
+        name: Icon.Figma,        
         lightColorClasses: "text-purple-500",
         darkColorClasses: "text-purple-400",
       },
       {
-        name: "Cypress",        
+        name: Icon.Cypress,        
         lightColorClasses: "text-gray-800",
         darkColorClasses: "text-gray-200",
       },
       {
-        name: "Storybook",        
+        name: Icon.Storybook,        
         lightColorClasses: "text-pink-600",
         darkColorClasses: "text-pink-500",
       },
       {
-        name: "Git",        
+        name: Icon.Git,        
         lightColorClasses: "text-orange-600",
         darkColorClasses: "text-orange-500",
       },
