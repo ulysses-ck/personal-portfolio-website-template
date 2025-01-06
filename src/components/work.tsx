@@ -1,3 +1,9 @@
+import Tag from "./tag";
+
 export default function Work() {
-  return <div>Work</div>;
+  return <section className="flex flex-col justify-center items-center gap-4">
+    <Tag>
+      Work
+    </Tag>
+  </section>;
 }

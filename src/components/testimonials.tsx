@@ -1,3 +1,9 @@
+import Tag from "@/components/tag";
+
 export default function Testimonials() {
-  return <div>Testimonials</div>;
+  return <section className="flex flex-col justify-center items-center gap-4">
+    <Tag>
+      Testimonials
+    </Tag>
+  </section>;
 }
