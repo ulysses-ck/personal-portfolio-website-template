@@ -7,6 +7,7 @@ export const text = {
       "I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 7 years, I still love it as if it was something new.",
     location: "Ahmedabad, India",
     available: "Available for new projects",
+    image: "https://i.pravatar.cc/300?img=52",
   },
   about: {
     title: "Curious about me? Here you have it:",
@@ -104,20 +105,135 @@ export const text = {
   experience: {
     title: "Experience",
     description: "Here is a quick summary of my most recent experiences:",
+    experiences: [
+      {
+        dateStart: "2021-11-01",
+        dateEnd: "Present",
+        company: "Upwork",
+        logo: "https://logos-world.net/wp-content/uploads/2021/04/Upwork-Logo-1.png",
+        position: "Sr. Frontend Developer",
+        labors: [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Ut pretium arcu et massa semper, id fringilla leo semper.",
+          "Sed quis justo ac magna.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        ]
+      },
+      {
+        dateStart: "2017-07-01",
+        dateEnd: "2021-10-31",
+        company: "Upwork",
+        logo: "https://logos-world.net/wp-content/uploads/2021/04/Upwork-Logo-1.png",
+        position: "Team Lead",
+        labors: [
+          "Sed quis justo ac magna.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Sed quis justo ac magna.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        ]
+      },
+      {
+        dateStart: "2015-12-01",
+        dateEnd: "2017-05-30",
+        company: "Upwork",
+        logo: "https://logos-world.net/wp-content/uploads/2021/04/Upwork-Logo-1.png",
+        position: "Full Stack Developer",
+        labors: [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        ]
+      }
+    ]
   },
   work: {
     title: "Work",
     description: "Some of the noteworthy projects I have built:",
+    projects: [
+      {
+        name: "Fiskil",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+        image: "https://via.placeholder.com/150",
+        link: "https://fiskil.com",
+        techStack: [
+          Icon.React,
+          Icon.NextJs,
+          Icon.TypeScript,
+          Icon.NestJs,
+          Icon.PostgreSQL,
+          Icon.TailwindCSS,
+          Icon.Figma,
+          Icon.Cypress,
+          Icon.Storybook,
+          Icon.Git,
+        ]
+      },
+      {
+        name: "Fiskil",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+        image: "https://via.placeholder.com/150",
+        link: "https://fiskil.com",
+        techStack: [
+          Icon.React,
+          Icon.NextJs,
+          Icon.TypeScript,
+          Icon.NestJs,
+          Icon.PostgreSQL,
+          Icon.TailwindCSS,
+          Icon.Figma,
+          Icon.Cypress,
+          Icon.Storybook,
+          Icon.Git,
+        ]
+      },
+      {
+        name: "Fiskil",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+        image: "https://via.placeholder.com/150",
+        link: "https://fiskil.com",
+        techStack: [
+          Icon.React,
+          Icon.NextJs,
+          Icon.TypeScript,
+          Icon.NestJs,
+          Icon.PostgreSQL,
+          Icon.TailwindCSS,
+          Icon.Figma,
+          Icon.Cypress,
+          Icon.Storybook,
+          Icon.Git,
+        ]
+      }
+    ]
   },
   testimonials: {
     title: "Testimonials",
     description: "Nice things people have said about me:",
+    testimonials: [
+      {
+        name: "John Doe",
+        companyDomain: "Founder - xyz.com",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+        image: "https://avatar.iran.liara.run/public/9",
+      },
+      {
+        name: "John Doe",
+        companyDomain: "Founder - abc.com",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+        image: "https://avatar.iran.liara.run/public/14",
+      },
+      {
+        name: "John Doe",
+        companyDomain: "Freelancer",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+        image: "https://avatar.iran.liara.run/public/69",
+      }
+    ]
   },
   contact: {
     title: "Get in touch",
     description: "What's next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.",
     email: "sagarpateldev@gmail.com",
     phone: "+91 9876543210",
+    description2: "You may also find me on these platforms!",
   },
   social: {
     github: "https://github.com/sagar-patel-dev",
