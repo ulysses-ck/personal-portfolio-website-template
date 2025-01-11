@@ -6,7 +6,7 @@ import { Icon } from "@/data/types/IIcon";
 export default function Hero() {
   return (
     <section className="flex flex-col items-center justify-center gap-4">
-      <ImageWrapper src="/images/hero.jpg" alt="Hero" />
+      <ImageWrapper src={text.hero.image} alt="Hero" />
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-h1-mobile-semibold">{text.hero.title}</h1>
         <p className="text-body2-all-normal">{text.hero.description}</p>
