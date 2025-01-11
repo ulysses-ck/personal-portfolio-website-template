@@ -13,7 +13,7 @@ export default function Skill() {
         text.skills.techStack.map((skill) => {
           return (
             <div key={skill.name} className="flex flex-col items-center justify-center">
-              <IconBase icon={skill.name} lightColor={skill.lightColorClasses} darkColor={skill.darkColorClasses} size={32} />
+              <IconBase icon={skill.name} lightColor={skill.lightColorClasses} darkColor={skill.darkColorClasses} size={64} />
             </div>
           )
         })
