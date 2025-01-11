@@ -1,6 +1,10 @@
 # Personal Portfolio Website Template
 
-A modern and customizable portfolio website template built with Next.js 15, designed for developers and professionals who want to showcase their work with style.
+A modern and customizable portfolio website template built with Next.js 15, designed for developers and professionals who want to showcase their work with style. This implementation is inspired by [this Figma design](https://www.figma.com/community/file/1262992249991763120).
+
+## Design
+
+This portfolio is based on the [Developer Portfolio Design](https://www.figma.com/community/file/1262992249991763120) from Figma Community. The implementation aims to stay true to the original design while adding modern web development practices and customizable features.
 
 ## Tech Stack
 
