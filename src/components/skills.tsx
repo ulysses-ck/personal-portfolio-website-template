@@ -1,6 +1,7 @@
 import Tag from "@/components/tag";
 import { text } from "@/data/content/text";
 import IconBase from "./icon-base";
+import Subtitle from "./subtitle";
 
 
 export default function Skill() {
@@ -8,6 +9,9 @@ export default function Skill() {
     <Tag>
       Skills
     </Tag>
+    <Subtitle>
+      {text.skills.description}
+    </Subtitle>
     <div className="grid grid-cols-3 w-full gap-8">
       {
         text.skills.techStack.map((skill) => {
